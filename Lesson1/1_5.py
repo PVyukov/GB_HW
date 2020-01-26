@@ -6,6 +6,6 @@ if pribil > 0:
     rental = pribil/revenue
     people = int(input('Enter number of employees: '))
     avrg_pribil = pribil / people
-    print(f'выручка больше издержек; рентабильность:{rental}; прибыль на одного человека: {avrg_pribil}')
+    print(f'выручка больше издержек; рентабильность:{rental}; прибыль на одного человека: {avrg_pribil:.2f}')
 else:
     print('издержки больше выручки')
