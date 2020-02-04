@@ -1,0 +1,84 @@
+# print('Hello world!')
+# x = 5
+# y = 10
+# speed = 80
+# speed_auto = 100
+# print(x + y)
+# Ctrl + /
+# my_int = 15
+# my_str1 = 'word'
+# my_str2 = "word"
+# my_float = 16.5
+# my_bool = True
+
+# print(type(my_bool))
+
+
+# print(5 < 6)
+# print(5 > 6)
+# print(6 == 6)
+# print(6 >= 6)
+# print(6 <= 6)
+# print(1 != 6)
+# print(5 > 4 and 1 < 5)
+# print(5 < 4 or 1 == 5)
+
+# print(abs(4-6))
+
+# name = input('Введите имя: ')
+# print(name)
+
+# age = input('Введите возраст: ')
+# print(int(age) + 20)
+
+# original_pass = '123'
+# person_pass = input('Введите пароль: ')
+# if person_pass == original_pass:
+#     print('Пароль введен верно!')
+# else:
+#     print('Отказано в доступе')
+# print('Завершение программы')
+
+
+# color = input('Цвет: ')
+# if color == 'red':
+#     print('Вы выбрали красный')
+# elif color == 'black':
+#     print('Вы выбрали черный')
+# elif color == 'blue':
+#     print('Вы выбрали синий')
+# elif color == 'white':
+#     print('Вы выбрали белый')
+# else:
+#     print('Такого цвета в базе нет')
+
+# num_1 = int(input('1: '))
+# num_2 = int(input('2: '))
+# if num_1 != num_2:
+#     print('не равны')
+#     if num_1 > num_2:
+#         print('первое больше')
+#     else:
+#         print('второе больше')
+# else:
+#     print('равны')
+
+# number = int(input('Введите число от 0 до 9: '))
+# while number < 10:
+#     number += 1  # number = number + 1
+#     if number == 8:
+#         continue
+#     print(number)
+#     if number == 12:
+#         break
+# print('end programm')
+
+# name = 'Ivan'
+# surname = 'Ivaonv'
+# age = 35
+# money = 200.54
+
+# print(name, surname, age)
+# print('Фамилия: %s Имя: %s Возраст: %d' % (surname, name, age))
+# print('Фамилия: {} Имя: {} Возраст: {}'.format(surname, name, age))
+# print(f'Фамилия: {surname:1} Имя: {name:17} Возраст: {age:10} Деньги: {money:.1f}')
