@@ -101,6 +101,7 @@
 
 # print(list(filter(lambda x: x > 0, data)))
 # print(list(map(lambda x: x ** 2, data)))
+# print(list(map(lambda x: True if x % 2 == 0 else False, range(1, 11))))
 
 # for _ in range(10):
 #     print('qwe')
